@@ -1,0 +1,7 @@
+name: RelaxedSleepRequirement
+version: ${project.version}
+main: com.gmail.nossr50.relaxedsleeprequirement.RelaxedSleepRequirement
+api-version: 1.13
+authors: [nossr50]
+description: This plugin was made to show a junior dev how to manipulate the sleep mechanic in Minecraft
+website: https://mcmmo.org
