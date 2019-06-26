@@ -56,7 +56,11 @@ public class SleepManager {
         }
     }
 
-    public void startSleep(World world) {
+    /**
+     * Mark everyone in the world as sleep ignored to get the ball rolling
+     * @param world target world
+     */
+    private void startSleep(World world) {
         for(Player player : world.getPlayers()) {
             addSleepIgnored(player);
         }
